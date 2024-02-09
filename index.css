@@ -410,6 +410,7 @@ nav li:first-child {
 }
 
 .bg-img {
+  margin-top: 0%;
   width: 100%;
   height: 100vh;
   background-image: url("public/Hero.jpeg");
@@ -423,6 +424,10 @@ nav li:first-child {
   padding-top: 10rem;
   display: flex;
   margin: auto;
+}
+
+.content-h3 {
+  
 }
 
 @keyframes bgChange {
@@ -465,6 +470,7 @@ nav li:first-child {
   font-size: var(--heading1-size);
   color: var(--white);
   font-family: var(--footer-links);
+  margin-top: -5rem;
 }
 .farm-to-table-experience,
 .fresh-produce-delivery {
