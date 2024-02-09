@@ -29,10 +29,10 @@
 .globle-icon {
   width: auto;
   position: relative;
-  height: 4rem;
+  height: 3.75rem;
   overflow: hidden;
   flex-shrink: 0;
-
+  padding-bottom: 1%;
 }
 
 .logo-text {
@@ -278,10 +278,12 @@ nav li:first-child {
 
 .sidebar a {
   width: 100%;
+  backdrop-filter: blur(10px);
 }
 
 .menu-icon {
   margin-top: 0.60rem;
+  margin-right: 2rem;
 }
 .close-icon {
   margin: 1rem 2rem;
@@ -294,7 +296,17 @@ nav li:first-child {
 }
 @media (max-width: 800px) {
   .hideOnMobile {
+    
     display: none;
+  }
+  .content-h3 {
+    font-size: 70%;
+  }
+
+  .content-h6 {
+    margin: auto;
+    padding-top: 20%;
+    font-size: 30%;
   }
 }
 
