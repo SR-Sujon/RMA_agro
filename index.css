@@ -1,5 +1,4 @@
 .image-icon {
-
   width: 100%;
   height: 100%;
   position: absolute;
@@ -94,11 +93,10 @@
   text-transform: uppercase;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   color: rgb(70, 74, 75);
 }
-
-
 
 @media (max-width: 600px) {
   .items {
@@ -141,7 +139,6 @@ a:hover, a:active {
   z-index: 2;
 }
 .menu {
-  
   width: 84.38rem;
   display: flex;
   flex-direction: row;
@@ -167,8 +164,6 @@ a:hover, a:active {
   color: var(--white);
   font-family: var(--menu-text);
 }
-
-
 
 .product-name-text {
   display: flex;
@@ -227,7 +222,7 @@ a:hover, a:active {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav ul{
+nav ul {
   width: auto;
   list-style: none;
   display: flex;
@@ -263,9 +258,9 @@ nav li:first-child {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15px);
-  box-shadow: -10px 0 10px rgba(0,0,0,0.2);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
   display: none;
   flex-direction: column;
   align-items: flex-start;
@@ -282,7 +277,7 @@ nav li:first-child {
 }
 
 .menu-icon {
-  margin-top: 0.60rem;
+  margin-top: 0.6rem;
   margin-right: 2rem;
 }
 .close-icon {
@@ -290,13 +285,12 @@ nav li:first-child {
 }
 
 @media (min-width: 800px) {
-  .menu-icon{
+  .menu-icon {
     display: none;
   }
 }
 @media (max-width: 800px) {
   .hideOnMobile {
-    
     display: none;
   }
   .content-h3 {
@@ -316,9 +310,6 @@ nav li:first-child {
   }
 }
 
-
-
-
 .navigation-links-container {
   display: flex;
   flex-direction: row;
@@ -335,7 +326,6 @@ nav li:first-child {
   align-items: center;
   justify-content: center;
 }
-
 
 .search-icon {
   height: 1.5rem;
@@ -422,12 +412,11 @@ nav li:first-child {
 .bg-img {
   width: 100%;
   height: 100vh;
-  background-image: url('public/Hero.jpeg') ;
+  background-image: url("public/Hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   animation: bgChange 30s linear infinite;
-  
 }
 
 .content-header {
@@ -436,38 +425,35 @@ nav li:first-child {
   margin: auto;
 }
 
-
 @keyframes bgChange {
-  0%{
-    background-image: url('public/Hero.jpeg');
+  0% {
+    background-image: url("public/Hero.jpeg");
   }
-  10%{
-    background-image: url('public/Hero.jpeg');
+  10% {
+    background-image: url("public/Hero.jpeg");
   }
-  25%{
-    background-image: url('public/field-1.jpg');
+  25% {
+    background-image: url("public/field-1.jpg");
   }
-  55%{
-    background-image: url('public/field-1.jpg');
+  55% {
+    background-image: url("public/field-1.jpg");
   }
-  60%{
-    background-image: url('public/vegies-1.jpg');
+  60% {
+    background-image: url("public/vegies-1.jpg");
   }
-  65%{
-    background-image: url('public/vegies-1.jpg');
+  65% {
+    background-image: url("public/vegies-1.jpg");
   }
-  80%{
-    background-image: url('public/vegies-2.jpg');
+  80% {
+    background-image: url("public/vegies-2.jpg");
   }
-  90%{
-    background-image: url('public/vegies-2.jpg');
+  90% {
+    background-image: url("public/vegies-2.jpg");
   }
-  100%{
-    background-image: url('public/Hero.jpeg') ;
+  100% {
+    background-image: url("public/Hero.jpeg");
   }
-
 }
-
 
 .main-content-frame {
   align-self: stretch;
@@ -796,8 +782,11 @@ nav li:first-child {
 .why-us {
   color: var(--white);
 }
+
 .instagram-title {
   align-items: center;
+  justify-content: start;
+  margin: 5rem 0;
   flex-shrink: 0;
   text-align: left;
   font-size: var(--heading2-size);
@@ -815,6 +804,11 @@ nav li:first-child {
   display: inline-block;
   max-width: 100%;
 }
+
+.product {
+  justify-content: center;
+}
+
 .image-icon2 {
   height: 19.38rem;
   flex: 1;
@@ -1431,7 +1425,7 @@ nav li:first-child {
   width: 109.38rem;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   padding: var(--padding-xl) 0 0;
   box-sizing: border-box;
   position: relative;
@@ -2265,11 +2259,17 @@ nav li:first-child {
   }
   .welcome {
     flex-wrap: wrap;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .image-icon12,
   .image11,
   .title12 {
     flex: 1;
+    width: auto;
+    height: 50%;
   }
   .kale-vegetablegm {
     flex-wrap: wrap;
@@ -2277,6 +2277,8 @@ nav li:first-child {
   .image12,
   .shopping-cart-frame {
     flex: 1;
+    width: auto;
+    height: 50%;
   }
   .main-content-frame1 {
     flex-wrap: wrap;
@@ -2297,6 +2299,7 @@ nav li:first-child {
     width: calc(100% - 40px);
   }
 }
+
 @media screen and (max-width: 1350px) {
   .bg-img {
     gap: var(--gap-314xl);
@@ -2345,6 +2348,7 @@ nav li:first-child {
     gap: var(--gap-331xl);
   }
 }
+
 @media screen and (max-width: 925px) {
   .your-global-partner-container {
     font-size: 3.19rem;
@@ -2353,6 +2357,8 @@ nav li:first-child {
     gap: var(--gap-314xl);
     padding-bottom: 11.25rem;
     box-sizing: border-box;
+    width: auto;
+    height: 50%;
   }
   .main-content-frame {
     padding-bottom: var(--padding-40xl);
@@ -2367,7 +2373,26 @@ nav li:first-child {
   .welcome {
     padding-bottom: var(--padding-40xl);
     box-sizing: border-box;
+    width: auto;
   }
+
+  .welcome img {
+    width: auto;
+    height: 75%;
+  }
+
+  .fresh-produce-delivery-container {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+  }
+
+  .lorem-ipsum-is {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .how-we-commit-container {
     font-size: var(--font-size-19xl);
   }
@@ -2464,7 +2489,8 @@ nav li:first-child {
     gap: var(--gap-71xl);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 550px) {
   .your-global-partner-container {
     font-size: var(--font-size-19xl);
   }
@@ -2477,6 +2503,10 @@ nav li:first-child {
   .lorem-ipsum-is-container {
     font-size: var(--heading6-size);
     line-height: 1.5rem;
+  }
+
+  .lorem-ipsum-is {
+    font-size: x-small;
   }
   .read-more {
     font-size: var(--font-size-lg);
@@ -2513,6 +2543,7 @@ nav li:first-child {
   .fresh-organic-supply {
     font-size: var(--font-size-10xl);
   }
+
   .b,
   .b1,
   .b2,
