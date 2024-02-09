@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <!--Navbar Section-->
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <img src="/public/close-icon.svg" alt="" class="close-icon" />
+        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul>
+        <li>
+          <img
+            class="globle-icon"
+            loading="eager"
+            alt=""
+            src="./public/RMA_Agro.svg"
+          />
+        </li>
+        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#">About</a></li>
+        <li class="hideOnMobile"><a href="#">Products</a></li>
+        <li class="hideOnMobile"><a href="#">Services</a></li>
+        <li class="hideOnMobile"><a href="#">Contact</a></li>
+        <li onclick="showSidebar()">
+          <img src="/public/menu-icon.svg" alt="" class="menu-icon" />
+        </li>
+      </ul>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="home-page">
+      <section class="main-content-frame">
+        <div class="bg-img">
+          <div class="content-header"></div>
+          <h3 style="backdrop-filter: blur(10px);">Wonderful <span style="color: green;">Agriculture</span></h3>
+          <h6 style="margin-top: -4.75rem;">Lets create a greener world.</h6>
+        </div>
+      </section>
+      <section class="instagram-title">
+        <div class="welcome">
+          <div class="content">
+            <div class="title">
+              <h1 class="fresh-produce-delivery-container">
+                <p class="fresh-produce-delivery">Fresh Produce Delivery.</p>
+                <p class="farm-to-table-experience">Farm-to-table Experience</p>
+              </h1>
+            </div>
+            <div class="paragraph">
+              <div class="lorem-ipsum-is-container">
+                <p class="lorem-ipsum-is">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+                <p class="blank-line">&nbsp;</p>
+              </div>
+            </div>
+            <div class="link">
+              <b class="read-more">Read More &gt;</b>
+            </div>
+          </div>
+          <div class="image">
+            <img class="image-icon1" alt="" src="./public/tomato-2.jpg" />
+          </div>
+        </div>
+        <div class="why-us">
+          <div class="section">
+            <div class="title1">
+              <h1 class="how-we-commit-container">
+                <p class="how-we-commit">How We Commit to a</p>
+                <p class="culture-of-sustainability">
+                  Culture of Sustainability
+                </p>
+              </h1>
+            </div>
+            <div class="boxes">
+              <div class="box-1">
+                <div class="icon3">
+                  <img
+                    class="cpu-icon"
+                    loading="eager"
+                    alt=""
+                    src="./public/cpuicon.svg"
+                  />
+                </div>
+                <div class="sub-title">
+                  <h3 class="technology">Technology</h3>
+                </div>
+                <div class="paragraph1">
+                  <div class="lorem-ipsum-is1">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting.
+                  </div>
+                </div>
+              </div>
+              <div class="box-2">
+                <div class="icon31">
+                  <img
+                    class="archive-icon"
+                    alt=""
+                    src="./public/archiveicon.svg"
+                  />
+                </div>
+                <div class="sub-title1">
+                  <h3 class="achivement">Achivement</h3>
+                </div>
+                <div class="paragraph2">
+                  <div class="it-is-a">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages.
+                  </div>
+                </div>
+              </div>
+              <div class="box-3">
+                <div class="icon32">
+                  <img class="truck-icon" alt="" src="./public/truckicon.svg" />
+                </div>
+                <div class="sub-title2">
+                  <h3 class="transportation">Transportation</h3>
+                </div>
+                <div class="paragraph3">
+                  <div class="contrary-to-popular">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in
+                    Virginia, looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-wrapper">
+        <div class="section1">
+          <h1 class="fresh-organic-supply">
+            Fresh Organic Supply Direct From Farmer to Home
+          </h1>
+          <div class="frame-parent">
+            <div class="product-wrapper">
+              <div class="product">
+                <div class="product-1">
+                  <div class="image1">
+                    <img
+                      class="image-icon2"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title2">
+                    <div class="chinese-cabbage-250gm-wrapper">
+                      <div class="chinese-cabbage-250gm">
+                        Chinese Cabbage 250gm
+                      </div>
+                    </div>
+                    <div class="instaimg">
+                      <b class="red-tomatogm">$10.50</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-2">
+                  <div class="image2">
+                    <img
+                      class="image-icon3"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title3">
+                    <div class="bananas-500gm-wrapper">
+                      <div class="bananas-500gm">Bananas 500gm</div>
+                    </div>
+                    <div class="wrapper">
+                      <b class="b">$2.00</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-3">
+                  <div class="image3">
+                    <img
+                      class="image-icon4"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title4">
+                    <div class="red-tomato-250gm-wrapper">
+                      <div class="red-tomato-250gm">Red Tomato 250gm</div>
+                    </div>
+                    <div class="container">
+                      <b class="b1">$4.50</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-4">
+                  <div class="image4">
+                    <img
+                      class="image-icon5"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title5">
+                    <div class="red-onion-500gm-wrapper">
+                      <div class="red-onion-500gm">Red Onion 500gm</div>
+                    </div>
+                    <div class="frame">
+                      <b class="b2">$3.15</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-5">
+                  <div class="image5">
+                    <img
+                      class="image-icon6"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title6">
+                    <div class="fresh-lime-250gm-wrapper">
+                      <div class="fresh-lime-250gm">Fresh Lime 250gm</div>
+                    </div>
+                    <div class="frame-div">
+                      <b class="b3">$2.00</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-11">
+                  <div class="image6">
+                    <img
+                      class="image-icon7"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title7">
+                    <div class="white-mushrooms-250gm-wrapper">
+                      <div class="white-mushrooms-250gm">
+                        White Mushrooms 250gm
+                      </div>
+                    </div>
+                    <div class="wrapper1">
+                      <b class="b4">$5.90</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-21">
+                  <div class="image7">
+                    <img
+                      class="image-icon8"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title8">
+                    <div class="sweet-potato-500gm-wrapper">
+                      <div class="sweet-potato-500gm">Sweet Potato 500gm</div>
+                    </div>
+                    <div class="wrapper2">
+                      <b class="b5">$1.50</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-31">
+                  <div class="image8">
+                    <img
+                      class="image-icon9"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title9">
+                    <div class="yellow-apricots-250gm-wrapper">
+                      <div class="yellow-apricots-250gm">
+                        Yellow Apricots 250gm
+                      </div>
+                    </div>
+                    <div class="wrapper3">
+                      <b class="b6">$3.25</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-41">
+                  <div class="image9">
+                    <img
+                      class="image-icon10"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title10">
+                    <div class="kale-vegetable-250gm-wrapper">
+                      <div class="kale-vegetable-250gm">
+                        Kale Vegetable 250gm
+                      </div>
+                    </div>
+                    <div class="wrapper4">
+                      <b class="b7">$2.30</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-51">
+                  <div class="image10">
+                    <img
+                      class="image-icon11"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="title11">
+                    <div class="red-strawberries-250gm-wrapper">
+                      <div class="red-strawberries-250gm">
+                        Red Strawberries 250gm
+                      </div>
+                    </div>
+                    <div class="wrapper5">
+                      <b class="b8">$4.40</b>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="heart-1">
+                  <img class="vector-icon" alt="" src="./public/vector.svg" />
+                </div>
+              </div>
+            </div>
+            <b class="view-all-products">View All Products &gt;</b>
+          </div>
+        </div>
+      </section>
+      <section class="kale-vegetablegm">
+        <div class="image11">
+          <img class="image-icon12" alt="" src="./public/image-12@2x.png" />
+        </div>
+        <div class="title12">
+          <h1 class="client-feedback-and-container">
+            <p class="client-feedback-and">Client Feedback and</p>
+            <p class="reviews">Reviews</p>
+          </h1>
+          <div class="instagram-logo">
+            <h3 class="lorem-ipsum-is2">
+              “Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s. It has survived not only five centuries, but
+              also the leap into electronic typesetting, remaining essentially
+              unchanged.“
+            </h3>
+            <div class="lets-getto-work">
+              <div class="dots">
+                <div class="ellipse-triple"></div>
+                <div class="ellipse-triple1"></div>
+                <div class="ellipse-triple2"></div>
+              </div>
+            </div>
+          </div>
+          <b class="david-martin">David Martin</b>
+        </div>
+      </section>
+      <section class="main-content-frame1">
+        <div class="image12">
+          <img class="image-icon13" alt="" src="./public/image-13@2x.png" />
+        </div>
+        <div class="shopping-cart-frame">
+          <div class="bg"></div>
+          <div class="heart-frame">
+            <img
+              class="fresh-logo-icon"
+              loading="eager"
+              alt=""
+              src="./public/freshlogo.svg"
+            />
+          </div>
+          <h1 class="better-for-farmers-container">
+            <p class="better-for-farmers">Better for Farmers,</p>
+            <p class="better-for-the">Better for the Planet.</p>
+          </h1>
+          <div class="lorem-ipsum-is3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley.
+          </div>
+          <div class="logo-image">
+            <button class="button">
+              <b class="supply-now">Supply Now</b>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="instagram">
+        <div class="title13">
+          <h1 class="follow-us-on">Follow Us on Instagram</h1>
+        </div>
+        <div class="section2">
+          <div class="insta-img-1">
+            <img
+              class="image1-icon"
+              loading="eager"
+              alt=""
+              src="./public/image1@2x.png"
+            />
+          </div>
+          <div class="insta-img-2">
+            <img class="image1-icon1" alt="" src="./public/image1@2x.png" />
+          </div>
+          <div class="insta-img-3">
+            <img class="image1-icon2" alt="" src="./public/image1@2x.png" />
+          </div>
+          <div class="insta-img-4">
+            <img class="image1-icon3" alt="" src="./public/image1@2x.png" />
+          </div>
+        </div>
+      </section>
+      <section class="image13">
+        <div class="bg1"></div>
+        <div class="image-inner">
+          <div class="graphic-parent">
+            <img
+              class="graphic-icon"
+              loading="eager"
+              alt=""
+              src="./public/graphic.svg"
+            />
+
+            <h1 class="lets-get-to">Let’s Get to Work</h1>
+            <button class="button1">
+              <b class="contact-us">Contact Us</b>
+            </button>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="top">
+          <div class="logo">
+            <div class="logo1">
+              <img class="globle-icon"
+                src="./public/RMA_Agro.svg"
+              />
+            </div>
+            <p>RMA agro</p>
+          </div>
+          <div class="links">
+            <div class="section-top">
+              <div class="title14">
+                <b class="learn">Learn</b>
+              </div>
+              <div class="links1">
+                <div class="company-responsibility-why-container">
+                  <p class="company1">Company</p>
+                  <p class="responsibility">Responsibility</p>
+                  <p class="why-thomas1">Why RMA agro</p>
+                </div>
+              </div>
+            </div>
+            <div class="section-top1">
+              <div class="title15">
+                <b class="explore">Explore</b>
+              </div>
+              <div class="links2">
+                <div class="products-blog-reviews-container">
+                  <p class="products1">Products</p>
+                  <p class="blog">Blog</p>
+                  <p class="reviews1">Reviews</p>
+                </div>
+              </div>
+            </div>
+            <div class="section-top2">
+              <div class="title16">
+                <b class="collaborate">Collaborate</b>
+              </div>
+              <div class="links3">
+                <div class="contact-become-a-container">
+                  <p class="contact">Contact</p>
+                  <p class="become-a-supplier">Become a Supplier</p>
+                  <p class="careers">Careers</p>
+                </div>
+              </div>
+            </div>
+            <div class="section-top3">
+              <div class="title17">
+                <b class="connect">Connect</b>
+              </div>
+              <div class="links4">
+                <div class="melbourne-vic-3000-container">
+                  <p class="melbourne-vic-3000">Melbourne VIC 3000</p>
+                  <p class="p">1300 123 4444</p>
+                  <p class="infothomasglobalcom">informaagro.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="copyright">
+            <div class="thomas-global-all">
+              © 2024 RMA agro. All Rights Reserved.
+            </div>
+          </div>
+          <div class="social">
+            <img
+              class="facebook-icon"
+              loading="eager"
+              alt=""
+              src="./public/facebook.svg"
+            />
+
+            <img
+              class="twitter-icon"
+              loading="eager"
+              alt=""
+              src="./public/twitter.svg"
+            />
+
+            <img
+              class="youtube-icon"
+              loading="eager"
+              alt=""
+              src="./public/youtube.svg"
+            />
+
+            <img
+              class="linkedin-icon"
+              loading="eager"
+              alt=""
+              src="./public/linkedin.svg"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
