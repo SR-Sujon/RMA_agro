@@ -1,3 +1,5 @@
+
+
 .image-icon {
   width: 100%;
   height: 100%;
@@ -13,18 +15,6 @@
   object-fit: cover;
 }
 
-.thomas-global {
-  margin: 0;
-  height: 2.31rem;
-  position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  white-space: nowrap;
-  z-index: 1;
-}
-
 .globle-icon {
   width: auto;
   position: relative;
@@ -32,13 +22,9 @@
   overflow: hidden;
   flex-shrink: 0;
   padding-bottom: 1%;
+  margin-left: 10.75rem;
 }
 
-.logo-text {
-  width: 14.5rem;
-  position: relative;
-  height: 2.31rem;
-}
 .logo {
   width: 25rem;
   display: flex;
@@ -47,34 +33,22 @@
   justify-content: flex-start;
   gap: 0.63rem;
 }
-.hover-line {
-  width: 1.69rem;
-  position: absolute;
-  margin: 0 !important;
-  top: 1.81rem;
-  left: calc(50% - 146px);
-  border-top: 2px solid var(--white);
-  box-sizing: border-box;
-  height: 0.13rem;
-  display: none;
-  z-index: 0;
+
+.navbar {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: aliceblue;
+  z-index: 10;
 }
-.why-thomas {
-  width: 7.81rem;
-  position: relative;
-  display: inline-block;
-  height: 1.44rem;
-  flex-shrink: 0;
+
+.active {
+  background-color: lightgray;
+  border-radius: 5rem;
+  font-weight: bolder;
 }
-.why-thomas-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.industries {
-  position: relative;
-}
+
 .items {
   display: flex;
   flex-direction: row;
@@ -123,13 +97,7 @@ a:active {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.cart-icon {
-  width: 1.5rem;
-  position: relative;
-  height: 1.5rem;
-  overflow: hidden;
-  flex-shrink: 0;
-}
+
 .icon {
   display: flex;
   flex-direction: row;
@@ -149,54 +117,10 @@ a:active {
   text-align: right;
   font-size: var(--menu-text-size);
 }
-.header {
-  position: absolute;
-  margin: 0 !important;
-  top: 1.69rem;
-  left: 5.38rem;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  font-size: var(--heading3-size);
-  color: var(--white);
-  font-family: var(--menu-text);
-}
 
-.product-name-text {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-3xs);
-}
-.hover-line {
-  height: 0.13rem;
-  width: 1.69rem;
-  position: absolute;
-  margin: 0 !important;
-  top: 3.13rem;
-  left: calc(50% - 145px);
-  border-top: 2px solid var(--white);
-  box-sizing: border-box;
-  display: none;
-  z-index: 0;
-}
-.why-thomas {
-  position: relative;
-  white-space: nowrap;
-}
-.star-rating {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.industries {
-  position: relative;
-}
+
+
+
 .instagram-icon {
   display: flex;
   flex-direction: row;
@@ -310,12 +234,6 @@ nav li:first-child {
   }
 }
 
-.navigation-links-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
 .company {
   position: relative;
 }
@@ -340,13 +258,7 @@ nav li:first-child {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.cart-icon {
-  height: 1.5rem;
-  width: 1.5rem;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
+
 .cart {
   align-items: flex-start;
   justify-content: flex-start;
@@ -412,8 +324,8 @@ nav li:first-child {
 .bg-img {
   margin-top: 0%;
   width: 100%;
-  height: 100vh;
-  background-image: url("public/Hero.jpeg");
+  height: 40vh;
+  background-image: url("public/vegies-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -421,15 +333,23 @@ nav li:first-child {
 }
 
 .content-header {
-  padding-top: 10rem;
   display: flex;
-  margin: auto;
+  margin-top:5rem;
 }
 
 .content-h3 {
-  
+  margin-top: 8rem;
 }
 
+.about-container {
+  width: 80%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.about-title {
+  background-image: url("./public/bg-marbel.jpg");
+}
+/*
 @keyframes bgChange {
   0% {
     background-image: url("public/Hero.jpeg");
@@ -459,26 +379,25 @@ nav li:first-child {
     background-image: url("public/Hero.jpeg");
   }
 }
-
+*/
 .main-content-frame {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 0 var(--padding-121xl);
   flex-shrink: 0;
   text-align: center;
   font-size: var(--heading1-size);
   color: var(--white);
   font-family: var(--footer-links);
-  margin-top: -5rem;
+  margin-top: 0rem;
 }
-.farm-to-table-experience,
-.fresh-produce-delivery {
+.about-header-content-2,
+.about-header-content-1 {
   margin: 0;
 }
-.fresh-produce-delivery-container {
+.about-container-header {
   margin: 0;
-  height: 6.88rem;
+  height: 4.5rem;
   flex: 1;
   position: relative;
   font-size: inherit;
@@ -500,7 +419,7 @@ nav li:first-child {
 .lorem-ipsum-is {
   margin: 0;
 }
-.lorem-ipsum-is-container {
+.about-para-div {
   height: 18.75rem;
   flex: 1;
   position: relative;
@@ -566,10 +485,10 @@ nav li:first-child {
   gap: var(--gap-xl);
 }
 .culture-of-sustainability,
-.how-we-commit {
+.why-us-header-content {
   margin: 0;
 }
-.how-we-commit-container {
+.why-us-header {
   margin: 0;
   height: 6.88rem;
   flex: 1;
@@ -615,10 +534,10 @@ nav li:first-child {
   justify-content: center;
 }
 .lorem-ipsum-is1 {
-  height: 11.25rem;
+  height: 10.25rem;
   flex: 1;
   position: relative;
-  line-height: 1.88rem;
+  line-height: 1.77rem;
   display: inline-block;
   max-width: 100%;
 }
@@ -655,7 +574,7 @@ nav li:first-child {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.achivement {
+.sutainability {
   margin: 0;
   height: 2rem;
   position: relative;
@@ -671,10 +590,10 @@ nav li:first-child {
   justify-content: center;
 }
 .it-is-a {
-  height: 11.25rem;
+  height: 10.25rem;
   flex: 1;
   position: relative;
-  line-height: 1.88rem;
+  line-height: 1.77rem;
   display: inline-block;
   max-width: 100%;
 }
@@ -725,10 +644,10 @@ nav li:first-child {
   justify-content: center;
 }
 .contrary-to-popular {
-  height: 11.25rem;
+  height: 10.25rem;
   flex: 1;
   position: relative;
-  line-height: 1.88rem;
+  line-height: 1.77rem;
   display: inline-block;
   max-width: 100%;
 }
@@ -743,7 +662,7 @@ nav li:first-child {
 }
 .box-3,
 .boxes,
-.instagram-title,
+.about-title,
 .section,
 .why-us {
   display: flex;
@@ -758,7 +677,7 @@ nav li:first-child {
   min-width: 25.75rem;
 }
 .boxes,
-.instagram-title,
+.about-title,
 .section,
 .why-us {
   align-self: stretch;
@@ -772,7 +691,7 @@ nav li:first-child {
   gap: var(--gap-31xl);
   font-size: var(--heading4-size);
 }
-.instagram-title,
+.about-title,
 .section,
 .why-us {
   flex-direction: column;
@@ -784,15 +703,15 @@ nav li:first-child {
   box-sizing: border-box;
   gap: var(--gap-31xl);
 }
-.instagram-title,
+.about-title,
 .why-us {
   color: var(--white);
 }
 
-.instagram-title {
+.about-title {
   align-items: center;
   justify-content: start;
-  margin: 5rem 0;
+  margin: 0 0;
   flex-shrink: 0;
   text-align: left;
   font-size: var(--heading2-size);
@@ -1519,9 +1438,10 @@ nav li:first-child {
 .lorem-ipsum-is2 {
   height: 18.75rem;
   width: 43.75rem;
-  line-height: 3.13rem;
+  line-height: 2.33rem;
   font-weight: 400;
   flex-shrink: 0;
+  font-size: 85%;
 }
 .ellipse-triple {
   background-color: var(--color-darkslategray-100);
@@ -1548,7 +1468,7 @@ nav li:first-child {
   gap: 2.5rem;
 }
 .dots,
-.instagram-logo,
+.client-feedback-content,
 .lets-getto-work {
   display: flex;
   align-content: left;
@@ -1558,7 +1478,7 @@ nav li:first-child {
   justify-content: flex-start;
   padding: 2.81rem 0 0;
 }
-.instagram-logo {
+.client-feedback-content {
   align-self: stretch;
   flex-direction: row;
   justify-content: space-between;
@@ -1572,7 +1492,7 @@ nav li:first-child {
   font-size: var(--heading5-size);
   color: var(--light-green);
 }
-.kale-vegetablegm,
+.client-feedback,
 .title12 {
   display: flex;
   box-sizing: border-box;
@@ -1587,7 +1507,7 @@ nav li:first-child {
   gap: var(--gap-31xl);
   min-width: 53.13rem;
 }
-.kale-vegetablegm {
+.client-feedback {
   width: 111.88rem;
   flex-direction: row;
   align-items: center;
@@ -1635,7 +1555,7 @@ nav li:first-child {
   flex-shrink: 0;
   z-index: 2;
 }
-.heart-frame {
+.supply-image-container {
   width: 43.75rem;
   display: flex;
   flex-direction: row;
@@ -1647,7 +1567,7 @@ nav li:first-child {
 .better-for-the {
   margin: 0;
 }
-.better-for-farmers-container {
+.our-services-header {
   margin: 0;
   width: 43.75rem;
   height: 6.88rem;
@@ -1657,7 +1577,7 @@ nav li:first-child {
   max-width: 100%;
   z-index: 2;
 }
-.better-for-farmers-container,
+.our-services-header,
 .lorem-ipsum-is3,
 .supply-now {
   position: relative;
@@ -1704,20 +1624,21 @@ nav li:first-child {
   background-color: var(--color-gainsboro);
 }
 .logo-image {
+  margin-top: 3rem;
   width: 43.75rem;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.main-content-frame1,
-.shopping-cart-frame {
+.supply-section-container,
+.supply-container {
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
   max-width: 100%;
 }
-.shopping-cart-frame {
+.supply-container {
   flex: 0.9583;
   background-color: var(--primary);
   flex-direction: column;
@@ -1727,7 +1648,7 @@ nav li:first-child {
   min-width: 39rem;
   z-index: 1;
 }
-.main-content-frame1 {
+.supply-section-container {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
@@ -1922,12 +1843,12 @@ nav li:first-child {
   box-sizing: border-box;
   max-width: 100%;
 }
-.image13,
+.contact-section,
 .thomas-logo-frame {
   overflow: hidden;
   flex-shrink: 0;
 }
-.image13 {
+.contact-section {
   height: 31.13rem;
   background-color: var(--primary);
   display: flex;
@@ -2280,16 +2201,16 @@ nav li:first-child {
     width: auto;
     height: 50%;
   }
-  .kale-vegetablegm {
+  .client-feedback {
     flex-wrap: wrap;
   }
   .image12,
-  .shopping-cart-frame {
+  .supply-container {
     flex: 1;
     width: auto;
     height: 50%;
   }
-  .main-content-frame1 {
+  .supply-section-container {
     flex-wrap: wrap;
   }
   .insta-img-2,
@@ -2337,11 +2258,11 @@ nav li:first-child {
   .title12 {
     min-width: 100%;
   }
-  .kale-vegetablegm {
+  .client-feedback {
     padding-bottom: var(--padding-72xl);
     box-sizing: border-box;
   }
-  .shopping-cart-frame {
+  .supply-container {
     padding-top: 7.25rem;
     padding-bottom: 7.38rem;
     box-sizing: border-box;
@@ -2359,7 +2280,7 @@ nav li:first-child {
   .button1 {
     left: 33.75rem;
   }
-  .main-content-frame1 {
+  .supply-section-container {
     padding-bottom: var(--padding-72xl);
     box-sizing: border-box;
   }
@@ -2386,7 +2307,7 @@ nav li:first-child {
     padding-bottom: var(--padding-40xl);
     box-sizing: border-box;
   }
-  .fresh-produce-delivery-container {
+  .about-container-header {
     font-size: var(--font-size-19xl);
   }
   .content {
@@ -2403,7 +2324,7 @@ nav li:first-child {
     height: 75%;
   }
 
-  .fresh-produce-delivery-container {
+  .about-container-header {
     align-items: center;
     display: grid;
     justify-content: center;
@@ -2427,7 +2348,7 @@ nav li:first-child {
   .button1 {
     left: 18.75rem;
   }
-  .how-we-commit-container {
+  .why-us-header {
     font-size: var(--font-size-19xl);
   }
   .box-1,
@@ -2471,27 +2392,27 @@ nav li:first-child {
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
-  .instagram-logo {
+  .client-feedback-content {
     flex-wrap: wrap;
   }
-  .kale-vegetablegm {
+  .client-feedback {
     padding-bottom: var(--padding-40xl);
     box-sizing: border-box;
   }
   .image12 {
     min-width: 100%;
   }
-  .better-for-farmers-container {
+  .our-services-header {
     font-size: var(--font-size-19xl);
   }
-  .shopping-cart-frame {
+  .supply-container {
     gap: var(--gap-31xl);
     padding-top: 4.69rem;
     padding-bottom: 4.81rem;
     box-sizing: border-box;
     min-width: 100%;
   }
-  .main-content-frame1 {
+  .supply-section-container {
     padding-bottom: var(--padding-40xl);
     box-sizing: border-box;
   }
@@ -2532,10 +2453,10 @@ nav li:first-child {
   .bg-img {
     gap: var(--gap-314xl);
   }
-  .fresh-produce-delivery-container {
+  .about-container-header {
     font-size: var(--font-size-10xl);
   }
-  .lorem-ipsum-is-container {
+  .about-para-div {
     font-size: var(--heading6-size);
     line-height: 1.5rem;
   }
@@ -2546,7 +2467,7 @@ nav li:first-child {
   .read-more {
     font-size: var(--font-size-lg);
   }
-  .how-we-commit-container {
+  .why-us-header {
     font-size: var(--font-size-10xl);
   }
   .technology {
@@ -2556,7 +2477,7 @@ nav li:first-child {
     font-size: var(--heading6-size);
     line-height: 1.5rem;
   }
-  .achivement {
+  .sutainability {
     font-size: var(--heading5-size);
   }
   .it-is-a {
@@ -2640,7 +2561,7 @@ nav li:first-child {
   .title12 {
     gap: var(--gap-31xl);
   }
-  .better-for-farmers-container {
+  .our-services-header {
     font-size: var(--font-size-10xl);
   }
   .lorem-ipsum-is3 {
@@ -2663,7 +2584,7 @@ nav li:first-child {
   .lets-get-to {
     font-size: var(--font-size-10xl);
   }
-  .image13 {
+  .contact-section {
     padding-top: var(--padding-2xl);
     padding-bottom: var(--padding-2xl);
     box-sizing: border-box;
