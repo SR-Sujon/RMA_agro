@@ -350,9 +350,14 @@ nav li:first-child {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-.about-title {
+.about-bg {
   background-image: url("./public/images/bg-marbel.jpg");
 }
+
+.invest_bg {
+  background-image: url("./public/images/background/bg-wood.jpg");
+}
+
 /*
 @keyframes bgChange {
   0% {
@@ -464,7 +469,7 @@ nav li:first-child {
   max-width: 100%;
 }
 .image-icon1 {
-  height: 58.25rem;
+  height: 44.25rem;
   flex: 1;
   position: relative;
   max-width: 100%;
@@ -489,15 +494,15 @@ nav li:first-child {
   gap: var(--gap-xl);
 }
 
-.why-us .section-class{
+.feature-panel .section-class{
   
 }
 .culture-of-sustainability,
-.why-us-header-content {
+.feature-panel-header-content {
   margin: 0;
   
 }
-.why-us-header {
+.feature-panel-header {
   margin: 0;
   height: 3.75rem;
   flex: 1;
@@ -535,7 +540,7 @@ nav li:first-child {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.technology {
+.feature-header-1 {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -590,7 +595,7 @@ nav li:first-child {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.sutainability {
+.feature-header-2 {
   margin: 0;
   height: 2rem;
   position: relative;
@@ -632,7 +637,7 @@ nav li:first-child {
   justify-content: flex-start;
   gap: var(--gap-11xl);
   min-width: 26.75rem;
-  padding: 1.5rem 0;
+  padding: 1.25rem 0;
   margin-left: 6.5rem;
 }
 .truck-icon {
@@ -648,7 +653,7 @@ nav li:first-child {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.transportation {
+.feature-header-3 {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -661,6 +666,9 @@ nav li:first-child {
   align-items: center;
   justify-content: center;
 }
+
+
+
 .contrary-to-popular {
   height: 10.25rem;
   flex: 1;
@@ -682,7 +690,7 @@ nav li:first-child {
 .boxes,
 .about-title,
 .section,
-.why-us {
+.feature-panel {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
@@ -699,7 +707,7 @@ nav li:first-child {
 .boxes,
 .about-title,
 .section,
-.why-us {
+.feature-panel {
   align-self: stretch;
 }
 .boxes {
@@ -725,7 +733,7 @@ nav li:first-child {
 
 .about-title,
 .section,
-.why-us {
+.feature-panel {
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -736,7 +744,7 @@ nav li:first-child {
   gap: var(--gap-31xl);
 }
 .about-title,
-.why-us {
+.feature-panel {
   color: var(--white);
 }
 
@@ -1435,12 +1443,13 @@ nav li:first-child {
   font-family: var(--footer-links);
 }
 .image-icon12 {
-  height: 56.25rem;
+  height: 48.25rem;
   flex: 1;
   position: relative;
   max-width: 100%;
   overflow: hidden;
   object-fit: cover;
+  margin-right: 2.5rem;
 }
 .image11 {
   width: 45.75rem;
@@ -1459,8 +1468,8 @@ nav li:first-child {
 .invest-us-and-container,
 .lorem-ipsum-is2 {
   margin: 0;
-  width: 43.5rem;
-  height: 4.88rem;
+  width: auto;
+  height: 3.88rem;
   position: relative;
   font-size: inherit;
   font-weight: 700;
@@ -1469,12 +1478,12 @@ nav li:first-child {
   max-width: 100%;
 }
 .lorem-ipsum-is2 {
-  height: 18.75rem;
+  height: 16.75rem;
   width: 43.75rem;
-  line-height: 2.33rem;
+  line-height: 1.85rem;
   font-weight: 400;
   flex-shrink: 0;
-  font-size: 80%;
+  font-size: 75%;
 }
 .ellipse-triple {
   background-color: var(--color-darkslategray-100);
@@ -1555,6 +1564,7 @@ nav li:first-child {
   display: flex;
   box-sizing: border-box;
   max-width: 82%;
+  margin-bottom: 5rem;
 }
 .title12 {
   margin-left: 0.75rem;
@@ -1579,7 +1589,6 @@ nav li:first-child {
   font-size: var(--heading2-size);
   color: var(--dark-grey);
   font-family: var(--footer-links);
-  
 }
 .image-icon13 {
   height: 62.5rem;
@@ -1624,6 +1633,18 @@ nav li:first-child {
   justify-content: flex-start;
   max-width: 100%;
 }
+
+
+.harvesting {
+  height: 44.25rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
 .better-for-farmers,
 .better-for-the {
   margin: 0;
@@ -1710,9 +1731,12 @@ nav li:first-child {
   z-index: 1;
 }
 .supply-section-container {
+  width: 80%;
   align-self: stretch;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12rem;
   padding: 0 0 var(--padding-121xl);
   row-gap: 20px;
   flex-shrink: 0;
@@ -2393,6 +2417,7 @@ nav li:first-child {
 
   .lorem-ipsum-is {
     font-size: 1rem;
+    line-height: 1.5rem;
     display: flex;
     justify-content: space-evenly;
   }
@@ -2409,7 +2434,7 @@ nav li:first-child {
   .button1 {
     left: 18.75rem;
   }
-  .why-us-header {
+  .feature-panel-header {
     font-size: var(--font-size-19xl);
   }
   .box-1,
@@ -2453,8 +2478,8 @@ nav li:first-child {
     font-size: var(--font-size-19xl);
   }
   .lorem-ipsum-is2 {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 1.15rem;
+    line-height: 2.0rem;
   }
   .invest-us-content {
     flex-wrap: wrap;
@@ -2525,28 +2550,54 @@ nav li:first-child {
     line-height: 1.5rem;
   }
 
-  .lorem-ipsum-is {
-    font-size: x-small;
+  .harvesting {
+    height: 30%;
+    width: auto;
+    margin-bottom: 5rem;
   }
+  
+
+  .lorem-ipsum-is {
+    font-size: 1.0rem;
+    line-height: 1.75rem;
+  }
+
+  .image-icon1 {
+    margin-top: 3.5rem;
+  }
+
   .read-more {
     font-size: var(--font-size-lg);
   }
-  .why-us-header {
+  .feature-panel-header {
     font-size: var(--font-size-10xl);
   }
-  .technology {
+  .feature-header-1 {
     font-size: var(--heading5-size);
   }
   .lorem-ipsum-is1 {
     font-size: var(--heading6-size);
     line-height: 1.5rem;
   }
-  .sutainability {
+  .feature-header-2 {
     font-size: var(--heading5-size);
   }
   .it-is-a {
     font-size: var(--heading6-size);
     line-height: 1.5rem;
+  }
+
+  .feature-panel .section .boxes 
+   {
+    margin-top: 0rem;
+  }
+
+  .feature-panel .section .boxes .long {
+    margin-bottom: 12rem;
+  }
+
+  .feature-panel .section .boxes .box-2 {
+    margin-top: 0;
   }
 
   .lets-get-to {
@@ -2563,7 +2614,7 @@ nav li:first-child {
     width: auto;
     height: 25px;
   }
-  .transportation {
+  .feature-header-3 {
     font-size: var(--heading5-size);
   }
   .contrary-to-popular {
@@ -2615,13 +2666,13 @@ nav li:first-child {
   .invest-us-and-container {
     font-size: var(--font-size-10xl);
   }
+
   .lorem-ipsum-is2 {
-    line-height: 1.88rem;
+    font-size: 1.0rem;
+    line-height:  1.39rem;
+    justify-content: space-evenly;;
   }
-  .david-martin,
-  .lorem-ipsum-is2 {
-    font-size: var(--font-size-lg);
-  }
+
   .title12 {
     gap: var(--gap-31xl);
   }
@@ -2630,7 +2681,7 @@ nav li:first-child {
   }
   .lorem-ipsum-is3 {
     font-size: var(--heading6-size);
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
   .follow-us-on {
     font-size: var(--font-size-10xl);
@@ -2674,7 +2725,7 @@ nav li:first-child {
     box-sizing: border-box;
   }
   .box-1, .box-2, .box-5 {
-    padding: 1.5rem 0;
+    padding: 1.50rem 0;
     margin-left: 0.75rem;
   }
 }
