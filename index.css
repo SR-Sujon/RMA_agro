@@ -49,6 +49,10 @@
   font-weight: bolder;
 }
 
+.nav-link:hover{
+  border-radius: 5rem;
+}
+
 .items {
   display: flex;
   flex-direction: row;
@@ -347,7 +351,7 @@ nav li:first-child {
   margin-bottom: 5rem;
 }
 .about-title {
-  background-image: url("./public/bg-marbel.jpg");
+  background-image: url("./public/images/bg-marbel.jpg");
 }
 /*
 @keyframes bgChange {
@@ -499,6 +503,11 @@ nav li:first-child {
   display: inline-block;
   max-width: 100%;
 }
+
+.why-rma-home {
+  font-size: 1.25rem;
+}
+
 .title1 {
   width: 43.75rem;
   display: flex;
@@ -559,7 +568,8 @@ nav li:first-child {
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-11xl);
-  min-width: 25.75rem;
+  min-width: 26.75rem;
+  padding: 1.5rem 0;
 }
 .archive-icon {
   height: 4.5rem;
@@ -615,7 +625,9 @@ nav li:first-child {
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-11xl);
-  min-width: 25.75rem;
+  min-width: 26.75rem;
+  padding: 1.5rem 0;
+  margin-left: 6.5rem;
 }
 .truck-icon {
   height: 4.5rem;
@@ -660,7 +672,7 @@ nav li:first-child {
   max-width: 100%;
   font-size: var(--footer-links-size);
 }
-.box-3,
+.box-5,
 .boxes,
 .about-title,
 .section,
@@ -669,12 +681,14 @@ nav li:first-child {
   align-items: flex-start;
   max-width: 100%;
 }
-.box-3 {
-  flex: 1;
+.box-5 {
+  flex: 0;
   flex-direction: column;
+  align-items: start;
   justify-content: flex-start;
   gap: var(--gap-11xl);
   min-width: 25.75rem;
+  margin-right: auto;
 }
 .boxes,
 .about-title,
@@ -686,11 +700,23 @@ nav li:first-child {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: var(--padding-xl) 0 0;
+  width: 80%;
+  padding: 1.5rem 0;
+  margin-left: 2.5rem;
   box-sizing: border-box;
   gap: var(--gap-31xl);
   font-size: var(--heading4-size);
+  
 }
+
+.box-container {
+  display: inline-block;
+  align-items: start;
+  height: 50%;
+  /*background-color: #fff;*/
+  
+}
+
 .about-title,
 .section,
 .why-us {
@@ -1624,7 +1650,7 @@ nav li:first-child {
   background-color: var(--color-gainsboro);
 }
 .logo-image {
-  margin-top: 3rem;
+  margin-top: 7.5rem;
   width: 43.75rem;
   align-items: flex-start;
   justify-content: flex-start;
@@ -2353,9 +2379,12 @@ nav li:first-child {
   }
   .box-1,
   .box-2,
-  .box-3 {
+  .box-5 {
     min-width: 100%;
   }
+
+  
+
   .boxes,
   .section {
     gap: var(--gap-31xl);
@@ -2608,5 +2637,9 @@ nav li:first-child {
     gap: var(--gap-71xl);
     padding-top: 4.06rem;
     box-sizing: border-box;
+  }
+  .box-1, .box-2, .box-5 {
+    padding: 1.5rem 0;
+    margin-left: 0.75rem;
   }
 }
