@@ -329,7 +329,7 @@ nav li:first-child {
   margin-top: 0%;
   width: 100%;
   height: 40vh;
-  background-image: url("public/vegies-2.jpg");
+  background-image: url("public/images/vegies-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -488,13 +488,18 @@ nav li:first-child {
   box-sizing: border-box;
   gap: var(--gap-xl);
 }
+
+.why-us .section-class{
+  
+}
 .culture-of-sustainability,
 .why-us-header-content {
   margin: 0;
+  
 }
 .why-us-header {
   margin: 0;
-  height: 6.88rem;
+  height: 3.75rem;
   flex: 1;
   position: relative;
   font-size: inherit;
@@ -506,6 +511,7 @@ nav li:first-child {
 
 .why-rma-home {
   font-size: 1.25rem;
+  margin-top: 0;
 }
 
 .title1 {
@@ -1437,23 +1443,24 @@ nav li:first-child {
   object-fit: cover;
 }
 .image11 {
-  width: 43.75rem;
+  width: 45.75rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   min-width: 43.75rem;
   max-width: 100%;
+  margin-top: 5rem;
 }
-.client-feedback-and,
+.invest-us-and,
 .reviews {
   margin: 0;
 }
-.client-feedback-and-container,
+.invest-us-and-container,
 .lorem-ipsum-is2 {
   margin: 0;
   width: 43.5rem;
-  height: 6.88rem;
+  height: 4.88rem;
   position: relative;
   font-size: inherit;
   font-weight: 700;
@@ -1467,7 +1474,7 @@ nav li:first-child {
   line-height: 2.33rem;
   font-weight: 400;
   flex-shrink: 0;
-  font-size: 85%;
+  font-size: 80%;
 }
 .ellipse-triple {
   background-color: var(--color-darkslategray-100);
@@ -1494,7 +1501,7 @@ nav li:first-child {
   gap: 2.5rem;
 }
 .dots,
-.client-feedback-content,
+.invest-us-content,
 .lets-getto-work {
   display: flex;
   align-content: left;
@@ -1504,7 +1511,32 @@ nav li:first-child {
   justify-content: flex-start;
   padding: 2.81rem 0 0;
 }
-.client-feedback-content {
+
+.agro-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.agro-div h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.agro-div p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+
+.invest-us-content {
   align-self: stretch;
   flex-direction: row;
   justify-content: space-between;
@@ -1518,13 +1550,14 @@ nav li:first-child {
   font-size: var(--heading5-size);
   color: var(--light-green);
 }
-.client-feedback,
+.invest-us,
 .title12 {
   display: flex;
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 82%;
 }
 .title12 {
+  margin-left: 0.75rem;
   width: 53.13rem;
   flex-direction: column;
   align-items: flex-start;
@@ -1532,8 +1565,9 @@ nav li:first-child {
   padding: var(--padding-xl) 0;
   gap: var(--gap-31xl);
   min-width: 53.13rem;
+  margin-bottom: 8.5rem;
 }
-.client-feedback {
+.invest-us {
   width: 111.88rem;
   flex-direction: row;
   align-items: center;
@@ -1545,6 +1579,7 @@ nav li:first-child {
   font-size: var(--heading2-size);
   color: var(--dark-grey);
   font-family: var(--footer-links);
+  
 }
 .image-icon13 {
   height: 62.5rem;
@@ -2227,7 +2262,7 @@ nav li:first-child {
     width: auto;
     height: 50%;
   }
-  .client-feedback {
+  .invest-us {
     flex-wrap: wrap;
   }
   .image12,
@@ -2284,7 +2319,7 @@ nav li:first-child {
   .title12 {
     min-width: 100%;
   }
-  .client-feedback {
+  .invest-us {
     padding-bottom: var(--padding-72xl);
     box-sizing: border-box;
   }
@@ -2414,17 +2449,17 @@ nav li:first-child {
   .image11 {
     min-width: 100%;
   }
-  .client-feedback-and-container {
+  .invest-us-and-container {
     font-size: var(--font-size-19xl);
   }
   .lorem-ipsum-is2 {
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
-  .client-feedback-content {
+  .invest-us-content {
     flex-wrap: wrap;
   }
-  .client-feedback {
+  .invest-us {
     padding-bottom: var(--padding-40xl);
     box-sizing: border-box;
   }
@@ -2577,7 +2612,7 @@ nav li:first-child {
     padding-bottom: 2.38rem;
     box-sizing: border-box;
   }
-  .client-feedback-and-container {
+  .invest-us-and-container {
     font-size: var(--font-size-10xl);
   }
   .lorem-ipsum-is2 {
